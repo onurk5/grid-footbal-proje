@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid football page</title>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/3c19734e28.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="">
+    <div class="flex">
+      <aside class="bg-gray-600 ext-2xl">
+        <div class="">
+          <div class="flex justify-center flex-col">
+            <span
+              class="
+                flex
+                items-center
+                flex-col
+                border-b-4
+                mx-8
+                justify-center
+                opacity-50
+              "
+              ><i class="fas fa-bars my-7"></i>
+            </span>
+            <span class="flex flex-col space-y-8 items-center pt-6">
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple pb-3"></i>
+              <div class="border w-12"></div>
+              <span
+                class="
+                  w-full
+                  flex
+                  justify-center
+                  items-center
+                  border-l-4 border-yellow-500
+                  h-8
+                  mt-3
+                "
+              >
+                <i class="fab fa-apple"></i>
+              </span>
+
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+              <i class="opacity-5 fab fa-apple"></i>
+            </span>
+            <div>
+              <span class="flex justify-center py-6 text-4xl"
+                ><i class="fas fa-plus-circle text-green-500"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="h-full w-full">
+        <!--HEADER-->
+        <div
+          class="
+            bg-gray-300
+            justify-between
+            h-20
+            w-full
+            items-center
+            relative
+            flex
+            px-10
+          "
+        >
+          <div class="left flex space-x-8 items-center text-base">
+            <span class="font-black">Matches</span>
+            <div class="flex space-x-2">
+              <span class="opacity-5">Live</span>
+              <span class="opacity-5">Score</span>
+            </div>
+
+            <span class="opacity-5">Statistics</span>
+            <span class="opacity-5">Analytics</span>
+          </div>
+          <div class="center flex justify-end items-center">
+            <div class="relative">
+              <input
+                class="border pl-4 rounded-full w-120 h-10 text-sm"
+                type="search"
+                name="ara"
+                id="ara"
+                placeholder="searchs matchs, players, stats..."
+              />
+              <i
+                class="
+                  text-gray-200
+                  absolute
+                  right-2
+                  transform
+                  -translate-y-2/4
+                  top-2/4
+                  text-base
+                  re
+                  fas
+                  fa-search
+                "
+              ></i>
+            </div>
+          </div>
+          <div class="right flex items-center justify-end space-x-3">
+            <div class="flex space-x-5 pr-5">
+              <i class="far fa-envelope"></i>
+              <i class="far fa-envelope"></i>
+              <i class="far fa-envelope"></i>
+            </div>
+            <div class="flex items-center">
+              <img class="w-10" src="image/kafa.png" alt="" />
+              <div class="flex flex-col justify-center pl-2">
+                <span class="flex items-center"
+                  >jane doe <i class="ml-10 text-gray-400 fas fa-angle-down"></i
+                ></span>
+                <span class="text-sm text-gray-400">Football player</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--MAİN-->
+        <main class="">
+          <div class="grid gap-3 mt-3 ml-3 grid-cols-12">
+            <div class="col-span-3 row-span-6 bg-red-900"></div>
+            <div class="col-span-7 row-span-1 bg-green-400 flex">
+              <img
+                class="pt-2 pl-8 object-cover"
+                src="image/adam21.png"
+                alt=""
+              />
+              <div
+                class="
+                  flex flex-col
+                  font-bold
+                  ml-8
+                  justify-center
+                  space-y-8
+                  w-full
+                  m
+                  pt-12
+                "
+              >
+                <div class="flex flex-col">
+                  <span class="text-3xl text-white">Weekly Football</span>
+                  <span class="text-3xl text-white">Challenge</span>
+                </div>
+
+                <span class="flex items-center space-x-4 mb-5">
+                  <i class="fas fa-adjust text-4xl"></i>
+                  <span class="font-black text-white">vs</span>
+                  <i class="fas fa-adjust text-4xl"></i>
+                </span>
+                <div class="space-x-5 text-white">
+                  <span>
+                    <i class="far fa-clock pr-2 text-white"></i>5:00 PM
+                  </span>
+                  <span
+                    ><i class="fas fa-map-marker pr-2 text-white"></i
+                    >London</span
+                  >
+                </div>
+                <div class="relative flex justify-between">
+                  <div>
+                    <i class="fas fa-adjust absolute left-0"></i>
+                    <i class="fas fa-adjust absolute left-3"></i>
+                    <i class="fas fa-adjust absolute left-6"></i>
+                    <i class="fas fa-adjust absolute left-9"></i>
+                  </div>
+                  <div class="pr-5">
+                    <button
+                      class="bg-white w-40 text-green-600 h-8 rounded-3xl"
+                    >
+                      Joın now
+                      <i class="pl-2 fas fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-span-2 row-span-2 bg-gray-400">sadsa</div>
+            <div
+              class="col-span-7 row-span-3 bg-gray-900 grid grid-rows-5 gap-y-4"
+            >
+              <div class="bg-white w-fulle h-12"></div>
+              <div class="bg-white w-fulle h-12"></div>
+              <div class="bg-white w-fulle h-12"></div>
+              <div class="bg-white w-fulle h-12"></div>
+              <div class="bg-white w-fulle h-12"></div>
+            </div>
+            <div class="col-span-2 row-span-4 bg-gray-700">sadsa</div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
